@@ -15,6 +15,9 @@ container_skel:
   ceph-mon_container:
     properties:
       is_metal: true
+  ceph-mds_container:
+    properties:
+      is_metal: true
   cinder_api_container:
     properties:
       is_metal: true
